@@ -2,7 +2,7 @@
 
 Utility to work with solana wallets
 
-[[GitHub](https://github.com/cryptoscan-pro/solana-wallet-sdk)]
+[\[GitHub\]](https://github.com/cryptoscan-pro/solana-wallet-sdk)
 
 To install package:
 
