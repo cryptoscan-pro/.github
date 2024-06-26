@@ -1,4 +1,4 @@
-﻿# Fast Dex Swap API by Cryptoscan
+﻿# Cryptoscan - Fast Dex Swap API
 
 Welcome to Cryptoscan for Developers
 
