@@ -2,6 +2,8 @@
 
 The fastest way to send transaction in solana
 
+[[GitHub](https://github.com/cryptoscan-pro/solana-send-transaction)]
+
 To install package:
 
 ```bash
