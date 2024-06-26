@@ -8,6 +8,22 @@ A platform to buy, sell and snipe all crypto tokens. Track upcoming token releas
 
 We provide our API for Developers that want to build their own crypto Swap site or crypto Sniping bot.
 
+## Features
+
+- Swap DEX tokens
+- Trade CEX tokens (Coming Soon)
+- Following by tokens
+- Following by wallets
+- Get DEX prices
+- Get CEX prices
+- Get CEX networks information
+
+## Open Source
+
+- [@cryptoscan/swap-sdk](https://github.com/cryptoscan-pro/swap-sdk) - The fastest way to swap any tokens on any networks & dexes
+- [@cryptoscan/solana-send-transaction](https://github.com/cryptoscan-pro/solana-send-transaction) - The fastest way to send transaction on Solana
+- [@cryptoscan/solana-wallet-sdk](https://github.com/cryptoscan-pro/solana-wallet-sdk) - Utility to work with Solana wallets
+
 ## Documentation
 
 The documentation is available at [https://docs.cryptoscan.pro](https://docs.cryptoscan.pro).
