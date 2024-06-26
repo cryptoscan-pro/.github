@@ -1,6 +1,6 @@
 ﻿# Cryptoscan - Fast Dex Swap API
 
-Welcome to Cryptoscan for Developers
+Welcome to Cryptoscan for Developers.
 
 ## What is Cryptoscan?
 
