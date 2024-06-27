@@ -25,6 +25,10 @@ Request
 
 ## Create transaction
 
+```
+https://api.cryptoscan.pro/v1/createTransaction
+```
+
 Request
 
 - `payerAddress` - Wallet address to pay fee
