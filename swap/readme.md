@@ -64,6 +64,10 @@ Request
 
 ## We supports
 
+**Launchpads**
+
+- [x] Pump.fun
+
 **Aggregators**
 
 - [ ] Cowswap
@@ -79,12 +83,3 @@ Request
 - [ ] Raydium
 - [ ] Jupiter
 - [ ] Uniswap (V2/V3)
-
-**Launchpads**
-
-- [ ] Pump.fun
-
-## SDK
-
-- [SDK GitHub](https://github.com/cryptoscan-pro/scanner-sdk)
-- [SDK NPM](https://npmjs.com/@cryptoscan/scanner-sdk)
