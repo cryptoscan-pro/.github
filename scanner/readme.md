@@ -24,6 +24,24 @@ Request
 - `from` - base coin address (Default: usdt)
 - `amount` - amount of base coin (Deafult: 1)
 
+Response 
+
+List of `Rate`
+
+- `Rate`
+    - `contractFrom` - contract of the base coin address
+    - `contractTo` - contract of the quote coin address
+    - `base` - base coin symbol
+    - `quote` - quote coin symbol
+    - `price` - price of the pair
+    - `priceUSD` - price of the coin in USD
+    - `result` - amount of quote tokens to pay
+    - `resultUSD` - amount of quote tokens to pay in USD
+    - `fee` - fee
+    - `feeUSD` - fee in USD
+    - `service` - exchange or platform to buy
+    - `impact` - price impact
+
 ## Toolkit
 
 - [Typescript SDK](https://github.com/cryptoscan-pro/scanner-sdk)
