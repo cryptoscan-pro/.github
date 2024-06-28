@@ -15,7 +15,7 @@ curl -l "https://api.cryptoscan.pro/v1/rate?to=29Q7c3kh1X9bdxYiNM3UpVsDMsH4sMyoY
 ## Get price
 
 ```
-curl -l "https://api.cryptoscan.pro/v1/rate?to=sol"
+https://api.cryptoscan.pro/v1/rate?to=sol&from=usdc
 ```
 
 Request
