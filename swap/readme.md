@@ -83,3 +83,9 @@ Request
 - [ ] Raydium
 - [ ] Jupiter
 - [ ] Uniswap (V2/V3)
+
+## Toolkit
+
+- [Typescript SDK](https://github.com/cryptoscan-pro/swap-sdk)
+- [Solana Send Transaction SDK](https://github.com/cryptoscan-pro/solana-send-transaction)
+- [Solana Wallet SDK](https://github.com/cryptoscan-pro/solana-wallet-sdk)
