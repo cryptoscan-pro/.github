@@ -36,6 +36,13 @@ load()
 - `getPrice(to: string, from: string, amount: number): Promise<number>`
 - `getRates(to: string, from: string): Promise<Rate[]>`
 - `getRate(to: string, from: string): Promise<Rate>`
+- `listenTransactions(network: string, fromAddress: string, onTransaction: (t: Transaction) => void, toAddress?: string): Promise<Rate>`
+    - `Transaction`
+        - `tx` - transaction hash
+        - `baseAmount` - amount of base coin
+        - `quoteAmount` - amount of quote coin
+        - `amount` - amount of base coin
+    
 
 Request
 
