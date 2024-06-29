@@ -16,7 +16,11 @@ The fastest and easiest way to trade on pumpfun
 [[Docs]](https://docs.cryptoscan.pro/)
 [[Discord]](https://discord.gg/ktewAs67fE)
 
-## Docs
+## Getting started
+
+```
+npm install @cryptoscan/pumpfun-sdk
+```
 
 ## Buy Example
 
@@ -35,7 +39,8 @@ Response
 `txid` string - transaction hash
 
 ```javascript
-import { pumpApi } from '@cryptoscan/pump-sdk';
+import { getWallet } from '@cryptoscan/solana-wallet-sdk';
+import { PumpApi } from '@cryptoscan/pumpfun-sdk';
 
 const wallet = getWallet(process.env.SECRET_KEY!);
 const coinAddress = 'HJAoYbnsf16Z8ftk3SsuShKLQQgzmxAPu41RTpjjpump';
@@ -66,7 +71,8 @@ Response
 `txid` string - transaction hash
 
 ```javascript
-import { pumpApi } from '@cryptoscan/pump-sdk';
+import { getWallet } from '@cryptoscan/solana-wallet-sdk';
+import { PumpApi } from '@cryptoscan/pumpfun-sdk';
 
 const wallet = getWallet(process.env.SECRET_KEY!);
 const coinAddress = 'HJAoYbnsf16Z8ftk3SsuShKLQQgzmxAPu41RTpjjpump';
@@ -95,7 +101,8 @@ Response
 `txid` string - transaction hash
 
 ```javascript
-import { pumpApi } from '@cryptoscan/pump-sdk';
+import { getWallet } from '@cryptoscan/solana-wallet-sdk';
+import { PumpApi } from '@cryptoscan/pumpfun-sdk';
 
 const wallet = getWallet(process.env.SECRET_KEY!);
 const sol = undefined; // All amount
@@ -103,6 +110,36 @@ const api = new PumpApi();
 
 api.transfer({
   wallet,
+  sol,
+})
+```
+
+## Transfer Coins Example
+
+Request
+
+- `wallet` - wallet keypair (by secret key)
+- `sol` - amount of coins in SOL to transfer, (Optional) if empty - all balance
+- `coinAddress` - coin address (Optional)
+- `fee` - amount of SOL to pay fee (Optional)
+- `payerWallet` - payer wallet keypair (Optional)
+
+Response
+
+`txid` string - transaction hash
+
+```javascript
+import { getWallet } from '@cryptoscan/solana-wallet-sdk';
+import { PumpApi } from '@cryptoscan/pumpfun-sdk';
+
+const wallet = getWallet(process.env.SECRET_KEY!);
+const coinAddress = 'HJAoYbnsf16Z8ftk3SsuShKLQQgzmxAPu41RTpjjpump';
+const sol = 0.01;
+const api = new PumpApi();
+
+api.transfer({
+  wallet,
+  coinAddress,
   sol,
 })
 ```
@@ -126,7 +163,7 @@ Response
 
 ```javascript
 import { getWallet } from '@cryptoscan/solana-wallet-sdk';
-import { pumpApi } from '@cryptoscan/pump-sdk';
+import { PumpApi } from '@cryptoscan/pumpfun-sdk';
 
 const wallet = getWallet(process.env.SECRET_KEY!);
 const wallets = [wallet, wallet];
@@ -166,7 +203,8 @@ Response
 `txid` string - transaction hash
 
 ```javascript
-import { pumpApi } from '@cryptoscan/pump-sdk';
+import { getWallet } from '@cryptoscan/solana-wallet-sdk';
+import { PumpApi } from '@cryptoscan/pumpfun-sdk';
 
 const mainWallet = getWallet(process.env.SECRET_KEY!);
 const wallet = getWallet(process.env.BUYER_KEY!);
@@ -204,7 +242,8 @@ Response
 `txid` string - transaction hash
 
 ```javascript
-import { pumpApi } from '@cryptoscan/pump-sdk';
+import { getWallet } from '@cryptoscan/solana-wallet-sdk';
+import { PumpApi } from '@cryptoscan/pumpfun-sdk';
 
 const mainWallet = getWallet(process.env.SECRET_KEY!);
 const wallet = getWallet(process.env.SELLER_KEY!);
@@ -229,19 +268,34 @@ api.transferSell({
   You sign transaction with private key locally only.
   Library is based on [@cryptoscan/swap-sdk](https://docs.cryptoscan.pro/swap/sdk)
 </details>
+<details>
+  <summary>Is it free?</summary>
+
+  We charge a 0.5% fee on each successful transaction. 
+  If you want to decrease fee - please contact us in [discord](https://discord.gg/ktewAs67fE) or [telegram](https://t.me/nomoney_trader)
+  We can increase fee down to 0.1% if you will contribute us.
+</details>
+<details>
+  <summary>How to contribute?</summary>
+
+  You can create pull requests or make a project based on our packages. 
+  You have chance to get some supply for a work and get fee reduced for the api.
+</details>
 
 ---
+
+## Contribute
 
 To install dependencies:
 
 ```bash
-bun install
+npm install
 ```
 
-To run:
+To build:
 
 ```bash
-bun run lib/index.ts
+npm build
 ```
 
 This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
