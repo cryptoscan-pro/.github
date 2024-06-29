@@ -22,6 +22,9 @@ Request
 - `from` - Coin address to pay (Defaults: `sol`)
 - `to` - Coin address to buy
 - `amount` - Amount of Coin `from` to buy
+- `fee` - Transaction fee (Optional)
+- `priorityFee` - Priority fee (Blox-route validator) (Default: 0.0001)
+- `slippage` - Slippage (Default: 1)
 
 ## Create transaction
 
@@ -61,6 +64,13 @@ Request
       - `type` - closeAccount
       - `coinAddress` - Coin address to close
       - `walletAddress` - Wallet address
+    - *Budget Limit* - limit of solana fee in one transaction
+      - `sol` - amount of SOL (Optional)
+    - *Budget Price* - price of solana fee per compute lamports
+      - `sol` - amount of SOL
+    - *BloxRoute instruction* - to make transations faster
+      - `payerAddress` - wallet to pay fee
+      - `sol` - amount of SOL to pay (Default: 0.0001)
 
 ## We supports
 
