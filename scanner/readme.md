@@ -42,6 +42,25 @@ List of `Rate`
     - `service` - exchange or platform to buy
     - `impact` - price impact
 
+## Listen transactions
+
+```
+ws://api.cryptoscan.pro/v1/transactions
+```
+
+Request
+
+- `address` - address of the coin
+
+Response
+
+- `tx` - tx hash id of transaction
+- `sol` - amount of solana in transaction
+- `amount` - amount of tokens in transaction
+- `owner` - owner address of transaction
+- `mint` - coin address
+- `createdDate` - creation date of transaction
+
 ## Toolkit
 
 - [Typescript SDK](https://github.com/cryptoscan-pro/scanner-sdk)
