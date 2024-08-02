@@ -1,6 +1,6 @@
 # @cryptoscan/scanner-sdk
 
-The easiest way to get dynamic swap/exchange rates by CEX and DEX tokens;
+The easiest way to get dynamic swap/exchange rates by CEX and DEX tokens
 
 [[GitHub]](https://github.com/cryptoscan-pro/scanner-sdk)
 [[Our website]](https://cryptoscan.pro/)
@@ -18,14 +18,15 @@ Usage example:
 ```javascript
 import { getPrice, getRates, getRate } from '@cryptoscan/scanner-sdk';
 
+const network = 'solana';
 const from = 'USDC';
 const to = 'SOL';
 
 async function load() {
-  const price = await getPrice(to, from); // 145.3
-  const amount = await getPrice(to, from, 10); // 1453
-  const rates = await getRate(to, from) // Array of rates
-  const rate = await getRate(to, from) // The first rate
+  const price = await getPrice(network, to, from); // 145.3
+  const amount = await getPrice(network, to, from, 10); // 1453
+  const rates = await getRate(network, to, from) // Array of @Rate
+  const rate = await getRate(network, to, from) // The first @Rate
 }
 
 load()
@@ -33,15 +34,14 @@ load()
 
 ## Docs
 
-- `getPrice(to: string, from: string, amount: number): Promise<number>`
-- `getRates(to: string, from: string): Promise<Rate[]>`
-- `getRate(to: string, from: string): Promise<Rate>`
-- `listenTransactions(network: string, fromAddress: string, onTransaction: (t: Transaction) => void, toAddress?: string): Promise<Rate>`
-    - `Transaction`
-        - `tx` - transaction hash
-        - `baseAmount` - amount of base coin
-        - `quoteAmount` - amount of quote coin
-        - `amount` - amount of base coin
+- `getPrice(network: string, to: string, from: string, amount: number): Promise<number>`
+- `getRates(network: string, to: string, from: string): Promise<Rate[]>`
+- `getRate(network: string, to: string, from: string): Promise<Rate>`
+- `listenTransactions(network: string, fromAddress: string, onTransaction: (t: Transaction) => void, toAddress?: string): () => void`
+	- `tx` - transaction hash
+	- `baseAmount` - amount of base coin
+	- `quoteAmount` - amount of quote coin
+	- `amount` - amount of base coin
     
 
 Request
@@ -67,17 +67,3 @@ List of `Rate`
     - `feeUSD` - fee in USD
     - `service` - exchange or platform to buy
     - `impact` - price impact
-
-## Contribute
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run lib/index.ts
-```
-
-This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
