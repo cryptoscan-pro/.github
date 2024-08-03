@@ -2,7 +2,7 @@
 
 The fastest way to send transaction in solana.
 
-[[GitHub](https://github.com/cryptoscan-pro/solana-send-transaction)]
+[[GitHub]](https://github.com/cryptoscan-pro/solana-send-transaction)
 [[Our website]](https://cryptoscan.pro/)
 [[Docs]](https://docs.cryptoscan.pro/)
 [[Discord]](https://discord.gg/ktewAs67fE)
@@ -42,19 +42,3 @@ sendTransaction(transaction).then((tx) => {
       - `preflightCommitment` - preflight commitment level
       - `maxRetries` - Maximum number of times for the RPC node to retry sending the transaction to the leader
       - `minContextSlot` - The minimum slot that the request can be evaluated at
-
-## Deploy
-
-To install dependencies:
-
-```bash
-npm install
-```
-
-To build:
-
-```bash
-npm build
-```
-
-This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
