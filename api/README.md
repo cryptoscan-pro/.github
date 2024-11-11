@@ -1,8 +1,16 @@
 # API
 
-You can get data from https://api.cryptoscan.pro
+You can get data from
 
-or listen data by WebSocket ws://api.cryptoscan.pro/listen
+```
+https://api.cryptoscan.pro
+```
+
+or listen data by WebSocket
+
+```
+ws://api.cryptoscan.pro/listen
+```
 
 ## Sort data
 
