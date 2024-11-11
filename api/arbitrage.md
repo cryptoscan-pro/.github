@@ -2,9 +2,9 @@
 
 ## Funding Arbitrage
 
-- [GET]
-
 Arbitrage in CEX futures markets
+
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=arbitrage&variant=dex-cex,cex-dex
@@ -65,9 +65,13 @@ https://api.cryptoscan.pro?type=arbitrage&variant=dex-dex
 
 ## Bridge Arbitrage
 
+- [GET]
+
 ```
 https://api.cryptoscan.pro?type=arbitrage&variant=dex-bridge
 ```
+
+- [WS] Listen Updates
 
 ```
 { "type": "arbitrage", "variant": "dex-dex" }
