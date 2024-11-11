@@ -4,10 +4,10 @@ You can get data from https://api.cryptoscan.pro
 
 or listen data by WebSocket ws://api.cryptoscan.pro/listen
 
-## Sort data by string or number
+## Sort data
 
-`asc` - Ascending (from low to high)
-`desc` - Descending (from high to low)
+- `asc` - Ascending (from low to high)
+- `desc` - Descending (from high to low)
 
 ```
 https://api.cryptoscan.pro?type=arbitrage&sort[spread]=asc
@@ -15,9 +15,9 @@ https://api.cryptoscan.pro?type=arbitrage&sort[spread]=asc
 
 ## Filter data
 
-`minParam` - Minimal number value to filter
-`maxParam` - Maximal number value to filter
-`param` - Filter string
+- `minParam` - Minimal number value to filter
+- `maxParam` - Maximal number value to filter
+- `param` - Filter string
 
 ```
 https://api.cryptoscan.pro?type=cex&minVolume=100000
