@@ -2,13 +2,13 @@
 
 ## Get networks statuses
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=networks
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "networks" }
@@ -16,13 +16,13 @@ https://api.cryptoscan.pro?type=networks
 
 ## Get pumps/dumps in 10 seconds
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "dex", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
@@ -30,13 +30,13 @@ https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10
 
 ## Get pumps/dumps in X minutes
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "dex", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
@@ -44,13 +44,13 @@ https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]
 
 ## Get buys/sells in 10 seconds
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "dex", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
@@ -58,13 +58,13 @@ https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10
 
 ## Get buys/sells in X minutes
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "dex", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
@@ -72,13 +72,13 @@ https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]
 
 ## Get funding rates [WIP]
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=funding
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "funding" }
@@ -86,13 +86,13 @@ https://api.cryptoscan.pro?type=funding
 
 ## Get top interests [WIP]
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=news&variant=top-interest
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "news", "variant": "top-interest" }
@@ -100,13 +100,13 @@ https://api.cryptoscan.pro?type=news&variant=top-interest
 
 ## Get liquidations [WIP]
 
-### [GET]
+- [GET]
 
 ```
 https://api.cryptoscan.pro?type=liquidations
 ```
 
-### [WS] Listen Updates
+- [WS] Listen Updates
 
 ```
 { "type": "liquidations" }
