@@ -10,6 +10,12 @@ This section provides data on transactions made by smart traders, offering insig
 https://api.cryptoscan.pro?type=news&variant=smart-traders
 ```
 
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "smart-traders" }
+```
+
 ## Get trending coins [WIP]
 
 This section highlights coins that are currently trending, helping users to identify popular investment opportunities.
@@ -18,6 +24,12 @@ This section highlights coins that are currently trending, helping users to iden
 
 ```
 https://api.cryptoscan.pro?type=news&variant=trending
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "trending" }
 ```
 
 ## Get DEX Track [WIP]
@@ -30,6 +42,12 @@ This section tracks decentralized exchange activities, providing users with comp
 https://api.cryptoscan.pro?type=news&variant=dex-track
 ```
 
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "dex-track" }
+```
+
 ## Get BSC DEX Track [WIP]
 
 This section focuses on tracking activities on Binance Smart Chain (BSC) decentralized exchanges, offering insights into BSC-specific transactions.
@@ -38,6 +56,12 @@ This section focuses on tracking activities on Binance Smart Chain (BSC) decentr
 
 ```
 https://api.cryptoscan.pro?type=news&variant=bsc-track
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "bsc-track" }
 ```
 
 ## Get New pairs ETH Track [WIP]
@@ -50,6 +74,12 @@ This section provides information on newly created trading pairs on Ethereum, he
 https://api.cryptoscan.pro?type=news&variant=eth-mints
 ```
 
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "eth-mints" }
+```
+
 ## Get pumps/dumps in 10 seconds
 
 This section identifies rapid price changes (pumps or dumps) within a 10-second interval, helping users to quickly react to market movements.
@@ -58,6 +88,12 @@ This section identifies rapid price changes (pumps or dumps) within a 10-second 
 
 ```
 https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "dex", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
 ```
 
 ## Get pumps/dumps in 1 minute
@@ -70,6 +106,12 @@ This section tracks price changes over a 1-minute interval, allowing users to an
 https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
 ```
 
+- [WS] Listen Updates
+
+```json
+{ "type": "dex", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
+```
+
 ## Get pumps/dumps in 1 hour
 
 This section provides data on price changes over a 1-hour period, helping users to understand longer-term market movements.
@@ -78,6 +120,12 @@ This section provides data on price changes over a 1-hour period, helping users 
 
 ```
 https://api.cryptoscan.pro?type=dex&includes[price]=change1h&sort[priceChange1h]=asc
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "dex", "includes[price]": "change1h", "sort[priceChange1h]": "asc" }
 ```
 
 ## Get buys/sells in 10 seconds
@@ -90,6 +138,12 @@ This section provides data on buy and sell activities within a 10-second window,
 https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
 ```
 
+- [WS] Listen Updates
+
+```json
+{ "type": "dex", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
+```
+
 ## Get buys/sells in 1 minute
 
 This section offers insights into buy and sell activities over a 1-minute interval, helping users to understand short-term trading patterns.
@@ -100,6 +154,12 @@ This section offers insights into buy and sell activities over a 1-minute interv
 https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
 ```
 
+- [WS] Listen Updates
+
+```json
+{ "type": "dex", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
+```
+
 ## Get buys/sells in 1 hour
 
 This section tracks buy and sell activities over a 1-hour period, providing users with data on longer-term trading behaviors.
@@ -108,4 +168,10 @@ This section tracks buy and sell activities over a 1-hour period, providing user
 
 ```
 https://api.cryptoscan.pro?type=dex&includes[price]=change1h&sort[priceChange1h]=asc
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "dex", "includes[price]": "change1h", "sort[priceChange1h]": "asc" }
 ```
