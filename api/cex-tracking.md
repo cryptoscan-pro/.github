@@ -80,6 +80,39 @@ https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]
 { "type": "dex", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
 ```
 
+## Get Coinmarketcap coins
+
+This section provides CoinMarketcap data on various cryptocurrencies, including their market capitalization, price, and other relevant information.
+
+- [GET]
+
+```
+https://api.cryptoscan.pro?type=cex-rates,dex-rates
+```
+
+- [WS] Listen Updates
+
+```
+{ "type": "cex-rates,dex-rates" }
+```
+
+## Get CoinGecko coins
+
+This section provides CoinGecko data on various cryptocurrencies, including their market capitalization, price, and other relevant information.
+
+- [GET]
+
+```
+https://api.cryptoscan.pro?type=prices
+```
+
+- [WS] Listen Updates
+
+```
+{ "type": "prices" }
+```
+
+
 ## Get funding rates [WIP]
 
 This section provides information on funding rates, which are crucial for understanding the cost of holding positions in futures markets.
