@@ -1,85 +1,5 @@
 # DEX Tracking
 
-## Get Smart traders transactions [WIP]
-
-This section provides data on transactions made by smart traders, offering insights into strategic trading activities.
-
-- [GET]
-
-```
-https://api.cryptoscan.pro?type=news&variant=smart-traders
-```
-
-- [WS] Listen Updates
-
-```json
-{ "type": "news", "variant": "smart-traders" }
-```
-
-## Get trending coins [WIP]
-
-This section highlights coins that are currently trending, helping users to identify popular investment opportunities.
-
-- [GET]
-
-```
-https://api.cryptoscan.pro?type=news&variant=trending
-```
-
-- [WS] Listen Updates
-
-```json
-{ "type": "news", "variant": "trending" }
-```
-
-## Get DEX Track [WIP]
-
-This section tracks decentralized exchange activities, providing users with comprehensive data on DEX transactions.
-
-- [GET]
-
-```
-https://api.cryptoscan.pro?type=news&variant=dex-track
-```
-
-- [WS] Listen Updates
-
-```json
-{ "type": "news", "variant": "dex-track" }
-```
-
-## Get BSC DEX Track [WIP]
-
-This section focuses on tracking activities on Binance Smart Chain (BSC) decentralized exchanges, offering insights into BSC-specific transactions.
-
-- [GET]
-
-```
-https://api.cryptoscan.pro?type=news&variant=bsc-track
-```
-
-- [WS] Listen Updates
-
-```json
-{ "type": "news", "variant": "bsc-track" }
-```
-
-## Get New pairs ETH Track [WIP]
-
-This section provides information on newly created trading pairs on Ethereum, helping users to discover new investment opportunities.
-
-- [GET]
-
-```
-https://api.cryptoscan.pro?type=news&variant=eth-mints
-```
-
-- [WS] Listen Updates
-
-```json
-{ "type": "news", "variant": "eth-mints" }
-```
-
 ## Get pumps/dumps in 10 seconds
 
 This section identifies rapid price changes (pumps or dumps) within a 10-second interval, helping users to quickly react to market movements.
@@ -174,4 +94,84 @@ https://api.cryptoscan.pro?type=dex&includes[price]=change1h&sort[priceChange1h]
 
 ```json
 { "type": "dex", "includes[price]": "change1h", "sort[priceChange1h]": "asc" }
+```
+
+## Get Smart traders transactions [WIP]
+
+This section provides data on transactions made by smart traders, offering insights into strategic trading activities.
+
+- [GET]
+
+```
+https://api.cryptoscan.pro?type=news&variant=smart-traders
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "smart-traders" }
+```
+
+## Get trending coins [WIP]
+
+This section highlights coins that are currently trending, helping users to identify popular investment opportunities.
+
+- [GET]
+
+```
+https://api.cryptoscan.pro?type=news&variant=trending
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "trending" }
+```
+
+## Get DEX Track [WIP]
+
+This section tracks decentralized exchange activities, providing users with comprehensive data on DEX transactions.
+
+- [GET]
+
+```
+https://api.cryptoscan.pro?type=news&variant=dex-track
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "dex-track" }
+```
+
+## Get BSC DEX Track [WIP]
+
+This section focuses on tracking activities on Binance Smart Chain (BSC) decentralized exchanges, offering insights into BSC-specific transactions.
+
+- [GET]
+
+```
+https://api.cryptoscan.pro?type=news&variant=bsc-track
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "bsc-track" }
+```
+
+## Get New pairs ETH Track [WIP]
+
+This section provides information on newly created trading pairs on Ethereum, helping users to discover new investment opportunities.
+
+- [GET]
+
+```
+https://api.cryptoscan.pro?type=news&variant=eth-mints
+```
+
+- [WS] Listen Updates
+
+```json
+{ "type": "news", "variant": "eth-mints" }
 ```
