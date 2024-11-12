@@ -1,19 +1,45 @@
 # DEX Tracking
 
-## Get Smart traders transactions
+## Get Smart traders transactions [WIP]
 
-## Get trending coins
+https://api.cryptoscan.pro?type=news&variant=smart-traders
 
-## Get DEX Track
+## Get trending coins [WIP]
 
-## Get BSC DEX Track
+https://api.cryptoscan.pro?type=news&variant=trending
 
-## Get New pairs ETH Track
+## Get DEX Track [WIP]
+
+https://api.cryptoscan.pro?type=news&variant=dex-track
+
+## Get BSC DEX Track [WIP]
+
+https://api.cryptoscan.pro?type=news&variant=bsc-track
+
+## Get New pairs ETH Track [WIP]
+
+https://api.cryptoscan.pro?type=news&variant=eth-mints
 
 ## Get pumps/dumps in 10 seconds
 
-## Get pumps/dumps in X minutes
+https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
+
+## Get pumps/dumps in 1 minute
+
+https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
+
+## Get pumps/dumps in 1 hour
+
+https://api.cryptoscan.pro?type=dex&includes[price]=change1h&sort[priceChange1h]=asc
 
 ## Get buys/sells in 10 seconds
 
-## Get buys/sells in X minutes
+https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
+
+## Get buys/sells in 1 minute
+
+https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
+
+## Get buys/sells in 1 hour
+
+https://api.cryptoscan.pro?type=dex&includes[price]=change1h&sort[priceChange1h]=asc
