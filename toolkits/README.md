@@ -1,37 +1,37 @@
-# SDK (Javascript/Python)
+# Cryptoscan SDK (Javascript/Python)
 
 ## Crypto SDK (Javascript)
 
-- https://github.com/cryptoscan-pro/arbitrage-sdk
-- https://github.com/cryptoscan-pro/coingecko-sdk
-- https://github.com/cryptoscan-pro/coinmarketcap-sdk
-- https://github.com/cryptoscan-pro/rates-sdk
-- https://github.com/cryptoscan-pro/contracts-sdk
-- https://github.com/cryptoscan-pro/swap-sdk
+- [Arbitrage SDK](https://docs.cryptoscan.pro/toolkits/arbitrage-sdk)
+- [Coingecko SDK](https://docs.cryptoscan.pro/toolkits/coingecko-sdk)
+- [Coinmarketcap SDK](https://docs.cryptoscan.pro/toolkits/coinmarketcap-sdk)
+- [Rates SDK](https://docs.cryptoscan.pro/toolkits/rates-sdk)
+- [Contracts SDK](https://docs.cryptoscan.pro/toolkits/contracts-sdk)
+- [Swap SDK](https://docs.cryptoscan.pro/toolkits/swap-sdk)
 
 ## Solana SDK (Javascript)
 
-- https://github.com/cryptoscan-pro/pumpfun-sdk
-- https://github.com/cryptoscan-pro/raydium-sdk
-- https://github.com/cryptoscan-pro/orca-sdk
-- https://github.com/cryptoscan-pro/meteora-sdk
+- [Pumpfun SDK](https://docs.cryptoscan.pro/toolkits/pumpfun-sdk)
+- [Raydium SDK](https://docs.cryptoscan.pro/toolkits/raydium-sdk)
+- [Orca SDK](https://docs.cryptoscan.pro/toolkits/orca-sdk)
+- [Meteora SDK](https://docs.cryptoscan.pro/toolkits/meteora-sdk)
 
 ## Centralized Exchanges SDK
 
-- https://github.com/cryptoscan-pro/bybit-sdk
-- https://github.com/cryptoscan-pro/bybit-futures-sdk
-- https://github.com/cryptoscan-pro/mexc-sdk
-- https://github.com/cryptoscan-pro/mexc-futures-sdk
-- https://github.com/cryptoscan-pro/gateio-sdk
-- https://github.com/cryptoscan-pro/gateio-futures-sdk
-- https://github.com/cryptoscan-pro/bitget-sdk
-- https://github.com/cryptoscan-pro/bitget-futures-sdk
-- https://github.com/cryptoscan-pro/kucoin-sdk
-- https://github.com/cryptoscan-pro/kucoin-futures-sdk
-- https://github.com/cryptoscan-pro/coinex-sdk
-- https://github.com/cryptoscan-pro/coinex-futures-sdk
-- https://github.com/cryptoscan-pro/bingx-sdk
-- https://github.com/cryptoscan-pro/bingx-futures-sdk
-- https://github.com/cryptoscan-pro/binance-sdk
-- https://github.com/cryptoscan-pro/xt-sdk
-- https://github.com/cryptoscan-pro/pionex-sdk
+- [Bybit SDK](https://docs.cryptoscan.pro/toolkits/bybit-sdk)
+- [Bybit Futures SDK](https://docs.cryptoscan.pro/toolkits/bybit-futures-sdk)
+- [Mexc SDK](https://docs.cryptoscan.pro/toolkits/mexc-sdk)
+- [Mexc Futures SDK](https://docs.cryptoscan.pro/toolkits/mexc-futures-sdk)
+- [Gateio SDK](https://docs.cryptoscan.pro/toolkits/gateio-sdk)
+- [Gateio Futures SDK](https://docs.cryptoscan.pro/toolkits/gateio-futures-sdk)
+- [Bitget SDK](https://docs.cryptoscan.pro/toolkits/bitget-sdk)
+- [Bitget Futures SDK](https://docs.cryptoscan.pro/toolkits/bitget-futures-sdk)
+- [Kucoin SDK](https://docs.cryptoscan.pro/toolkits/kucoin-sdk)
+- [Kucoin Futures SDK](https://docs.cryptoscan.pro/toolkits/kucoin-futures-sdk)
+- [Coinex SDK](https://docs.cryptoscan.pro/toolkits/coinex-sdk)
+- [Coinex Futures SDK](https://docs.cryptoscan.pro/toolkits/coinex-futures-sdk)
+- [Bingx SDK](https://docs.cryptoscan.pro/toolkits/bingx-sdk)
+- [Bingx Futures SDK](https://docs.cryptoscan.pro/toolkits/bingx-futures-sdk)
+- [Binance SDK](https://docs.cryptoscan.pro/toolkits/binance-sdk)
+- [XT SDK](https://docs.cryptoscan.pro/toolkits/xt-sdk)
+- [Pionex SDK](https://docs.cryptoscan.pro/toolkits/pionex-sdk)
