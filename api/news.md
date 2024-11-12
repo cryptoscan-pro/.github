@@ -1,6 +1,6 @@
 # News API
 
-## Get News
+## Get News [WIP]
 
 This section provides the latest news updates related to cryptocurrencies.
 
@@ -16,7 +16,7 @@ https://api.cryptoscan.pro?type=news&variant=latest
 { "type": "news", "variant": "latest" }
 ```
 
-## Get Twitter Activity
+## Get Twitter Activity [WIP]
 
 This section tracks Twitter activity related to cryptocurrencies, helping users to stay informed about social media trends.
 
@@ -32,7 +32,7 @@ https://api.cryptoscan.pro?type=news&variant=twitter
 { "type": "news", "variant": "twitter" }
 ```
 
-## Get Threads Activity
+## Get Threads Activity [WIP]
 
 This section provides updates on discussion threads related to cryptocurrencies, offering insights into community conversations.
 
@@ -48,7 +48,7 @@ https://api.cryptoscan.pro?type=news&variant=threads
 { "type": "news", "variant": "threads" }
 ```
 
-## Get Crypto Blogs Activity
+## Get Crypto Blogs Activity [WIP]
 
 This section highlights activity from crypto blogs, providing users with expert opinions and analyses.
 
@@ -64,7 +64,7 @@ https://api.cryptoscan.pro?type=news&variant=blogs
 { "type": "news", "variant": "blogs" }
 ```
 
-## Get Crypto Proposals
+## Get Crypto Proposals [WIP]
 
 This section tracks proposals related to cryptocurrencies, helping users to understand potential changes in the crypto landscape.
 
@@ -80,7 +80,7 @@ https://api.cryptoscan.pro?type=news&variant=proposals
 { "type": "news", "variant": "proposals" }
 ```
 
-## Get ETF Flow
+## Get ETF Flow [WIP]
 
 This section provides data on ETF flows related to cryptocurrencies, offering insights into institutional investment trends.
 
