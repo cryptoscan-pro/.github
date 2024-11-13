@@ -23,29 +23,29 @@ This section identifies rapid price changes (pumps or dumps) within a 10-second 
 - [GET]
 
 ```
-https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
+https://api.cryptoscan.pro?type=prices&includes[price]=change10s&sort[priceChange10s]=asc
 ```
 
 - [WS] Listen Updates
 
 ```
-{ "type": "dex", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
+{ "type": "prices", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
 ```
 
-## Get pumps/dumps in X minutes
+## Get pumps/dumps in X minutes in bybit
 
 This section tracks price changes over a customizable time frame, allowing users to analyze market trends over longer periods.
 
 - [GET]
 
 ```
-https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
+https://api.cryptoscan.pro?type=prices&exchange=bybit&includes[price]=change1m&sort[priceChange1m]=asc
 ```
 
 - [WS] Listen Updates
 
 ```
-{ "type": "dex", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
+{ "type": "prices", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
 ```
 
 ## Get buys/sells in 10 seconds
@@ -55,13 +55,13 @@ This section provides data on buy and sell activities within a 10-second window,
 - [GET]
 
 ```
-https://api.cryptoscan.pro?type=dex&includes[price]=change10s&sort[priceChange10s]=asc
+https://api.cryptoscan.pro?type=prices&includes[price]=change10s&sort[priceChange10s]=asc
 ```
 
 - [WS] Listen Updates
 
 ```
-{ "type": "dex", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
+{ "type": "prices", "includes[price]": "change10s", "sort[priceChange10s]": "asc" }
 ```
 
 ## Get buys/sells in X minutes
@@ -71,13 +71,13 @@ This section offers insights into buy and sell activities over a specified time 
 - [GET]
 
 ```
-https://api.cryptoscan.pro?type=dex&includes[price]=change1m&sort[priceChange1m]=asc
+https://api.cryptoscan.pro?type=prices&includes[price]=change1m&sort[priceChange1m]=asc
 ```
 
 - [WS] Listen Updates
 
 ```
-{ "type": "dex", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
+{ "type": "prices", "includes[price]": "change1m", "sort[priceChange1m]": "asc" }
 ```
 
 ## Get Coinmarketcap coins
