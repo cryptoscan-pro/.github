@@ -1,4 +1,4 @@
-# CEX Rates Api
+# CEX Rates Api - Cryptoscan
 
 A microservice that provides real-time order book depth and exchange rate information from multiple cryptocurrency exchanges.
 
