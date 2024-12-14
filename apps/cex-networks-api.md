@@ -2,6 +2,8 @@
 
 API to get realtime networks statuses, listen networks updates.
 
+**Current Price**: $600
+
 Features:
 
 - 100+ Exchanges support.
