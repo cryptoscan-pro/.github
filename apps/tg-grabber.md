@@ -1,6 +1,6 @@
 # Telegram Grabber Bot - Cryptoscan
 
-Telegram Grabber Bot is a Telegram bot that allows you to manage multiple Telegram accounts and scrape data from Telegram channels.
+Telegram Grabber Bot is a Telegram bot that allows you to manage multiple Telegram accounts and scrape data from Telegram channels
 
 **Current Price**: $900
 **Contacts**: https://t.me/dan_cryptoscan
