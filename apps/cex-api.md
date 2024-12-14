@@ -1,6 +1,8 @@
-# CEX Listener - Cryptoscan
+# CEX API - Cryptoscan
 
 API to listen live centralized exchanges prices and volume in realtime. Spot + Futures.
+
+**Current Price**: $1350
 
 - WebSocket Listen price updates
 - WebSocket Listen coin listings
