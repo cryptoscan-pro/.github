@@ -4,6 +4,16 @@ API to listen live centralized exchanges prices and volume in realtime. Spot + F
 
 **Current Price**: $1350
 
+What you get:
+
+- Free setup into your hosting
+- Free help to integrate app to your server
+- Full access to the codebase and code updates
+- Free updates for app, you can request for free updates via access to issues
+- Full access to Project Time tracking by developers
+
+Features:
+
 - WebSocket Listen price updates
 - WebSocket Listen coin listings
 - WebSocket Listen volume/price changes by % by the time
