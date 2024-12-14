@@ -159,7 +159,6 @@ bun start
 The service supports configuration via environment variables:
 
 ```env
-# Required environment variables
 PORT=3000                    # Server port (default: 3000)
 MIN_SPREAD=1                 # Minimum spread percentage
 MAX_SPREAD=999              # Maximum spread percentage
