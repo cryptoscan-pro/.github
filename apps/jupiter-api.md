@@ -3,6 +3,7 @@
 A TypeScript wrapper for Jupiter DEX API on Solana blockchain with proxy support and rate fetching capabilities.
 
 **Current Price**: $120
+**Contacts**: https://t.me/dan_cryptoscan
 
 What you get:
 
