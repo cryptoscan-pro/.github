@@ -3,6 +3,7 @@
 API to listen live centralized exchanges prices and volume in realtime. Spot + Futures.
 
 **Current Price**: $1350
+**Contacts**: https://t.me/dan_cryptoscan
 
 What you get:
 
