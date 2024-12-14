@@ -1,4 +1,4 @@
-# Arbitrage API
+# Arbitrage API - Cryptoscan
 
 Real-time cryptocurrency arbitrage opportunity detection service that monitors price differences across exchanges and networks.
 
