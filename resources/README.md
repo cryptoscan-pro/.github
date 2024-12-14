@@ -1,4 +1,4 @@
-# Crypto Resources
+# Resources - Cryptoscan
 
 ## Dex Track
 
