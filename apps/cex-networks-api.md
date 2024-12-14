@@ -4,6 +4,14 @@ API to get realtime networks statuses, listen networks updates.
 
 **Current Price**: $600
 
+What you get:
+
+- Free setup into your hosting
+- Free help to integrate app to your server
+- Full access to the codebase and code updates
+- Free updates for app, you can request for free updates via access to issues
+- Full access to Project Time tracking by developers
+
 Features:
 
 - 100+ Exchanges support.
