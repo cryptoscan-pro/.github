@@ -2,7 +2,7 @@
 
 Telegram Grabber Bot is a Telegram bot that allows you to manage multiple Telegram accounts and scrape data from Telegram channels.
 
-**Current Price**: $1350
+**Current Price**: $900
 
 What you get:
 
