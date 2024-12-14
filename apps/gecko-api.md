@@ -3,6 +3,7 @@
 A TypeScript-based tool for loading and monitoring cryptocurrency pool data from GeckoTerminal API with WebSocket support.
 
 **Current Price**: $420
+**Contacts**: https://t.me/dan_cryptoscan
 
 What you get:
 
