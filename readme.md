@@ -1,7 +1,5 @@
 ﻿# Cryptoscan - Fast Dex Swap API
 
-[Cryptoscan Bot](https://t.me/cryptoscanpro_bot) | [Telegram Channel](https://t.me/+A-0ypSDGrP9lNjBi) | [Telegram RU Channel](https://t.me/+cm4TIeperL04NzA6)
-
 ## What is Cryptoscan?
 
 Cryptoscan is a platform designed to help traders navigate the overwhelming amount of data in the decentralized market. With constant price updates, news, and information from many sources, it can be difficult to spot profitable opportunities quickly.
