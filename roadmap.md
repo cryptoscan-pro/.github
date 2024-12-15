@@ -1,21 +1,26 @@
 # Roadmap - Cryptoscan
 
-## Q1 2024-2025 (December-January) 
+## Q1 2024-2025 
 
-Beta testing platform in Telegram.
+- **December-January**
+- Beta testing platform in Telegram.
 
-## Q2 2025 (February-March)
+## Q2 2025
 
-Launch $SCAN Token on Solana.
+- **February-March**
+- Launch $SCAN Token on Solana.
 
-## Q3 2025 (March-April)
+## Q3 2025 
 
-Release Telegram Bot with custom alerts and AI.
+- **March-April**
+- Release Telegram Bot with custom alerts and AI.
 
-## Q4 2025 (April-May)
+## Q4 2025 
 
-Release Web Screener.
+- **April-May**
+- Release Web Screener.
 
-## Q5 2025 (June-July)
+## Q5 2025 
 
-Launch AI for Smart signals in Telegram.
+- **June-July**
+- Launch AI for Smart signals in Telegram.
