@@ -1,4 +1,4 @@
-# API
+# API Basics - Cryptoscan
 
 You can get data from
 
