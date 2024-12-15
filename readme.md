@@ -1,4 +1,4 @@
-﻿# Cryptoscan - Fast Dex Swap API
+﻿# Cryptoscan - A DeFi Data Aggregator
 
 ## What is Cryptoscan?
 
