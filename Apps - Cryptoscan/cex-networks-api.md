@@ -2,7 +2,6 @@
 
 API to get realtime networks statuses, listen networks updates.
 
-**Current Price**: $600
 **Contacts**: https://t.me/dan_cryptoscan
 
 What you get:
