@@ -2,8 +2,7 @@
 
 A real-time cryptocurrency price and information tracker that monitors both centralized (CEX) and decentralized (DEX) exchanges.
 
-**Current Price**: $450
-**Contacts**: https://t.me/dan_cryptoscan
+**Contacts**: [https://t.me/dan_cryptoscan](https://t.me/dan_cryptoscan)
 
 What you get:
 
