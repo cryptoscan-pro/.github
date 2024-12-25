@@ -83,6 +83,8 @@ pnpm run start
 
 - `/start` - Start interaction with the bot
 - `/check` - Check subscription status
+- `/ref` - Get your personal referral link and statistics
+- `/ref [code]` - Check statistics for a specific referral code
 
 ### Admin Commands
 
@@ -90,6 +92,70 @@ pnpm run start
 - `/broadcast_all [text]` - Send message to all users
 - `/broadcast_subscribed [text]` - Send message to subscribed users
 - `/broadcast_unsubscribed [text]` - Send message to unsubscribed users
+
+## Referral System
+
+The bot includes a comprehensive referral system that allows users to invite others and track their referral statistics.
+
+### Referral Features
+
+- Generate personal referral links
+- Track number of invited users
+- View detailed referral statistics
+- Monitor active invitations
+
+### How Referral System Works
+
+1. **Getting Referral Link**
+   - Use `/ref` command to get your personal referral link
+   - Share the link with potential users
+
+2. **Inviting Users**
+   - When users join via referral link, they're automatically tracked
+   - The system records the referral relationship
+
+3. **Viewing Statistics**
+   - Use `/ref` to see your referral statistics
+   - Use `/ref [code]` to check specific referral code statistics
+   - Statistics include total invites and active users
+
+### Referral Data Storage
+
+Bot saves referral data in `data/referrals.json`:
+- Referral codes
+- Invited users list
+- Total invitation count
+- Active referrals tracking
+
+## Data Structure
+
+### User Data (`data/users.json`)
+```json
+{
+  "userId": {
+    "id": number,
+    "username": string,
+    "firstName": string,
+    "lastName": string,
+    "startDate": string,
+    "hasAccess": boolean,
+    "lastMessageIndex": number,
+    "language": "ru" | "en",
+    "referredBy": string
+  }
+}
+```
+
+### Referral Data (`data/referrals.json`)
+```json
+{
+  "referralCode": {
+    "code": string,
+    "invitedUsers": number[],
+    "totalInvited": number
+  }
+}
+```
 
 ## Channel Setup
 
