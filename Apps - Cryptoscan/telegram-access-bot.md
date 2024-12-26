@@ -88,10 +88,12 @@ pnpm run start
 
 ### Admin Commands
 
-- `/stats` - Show user statistics
+- `/stats` - Show detailed user statistics
 - `/broadcast_all [text]` - Send message to all users
 - `/broadcast_subscribed [text]` - Send message to subscribed users
 - `/broadcast_unsubscribed [text]` - Send message to unsubscribed users
+- `/create_ref [code]` - Create custom referral code (generates random code if not specified)
+- `/ref [code]` - Check detailed statistics for any referral code
 
 ## Referral System
 
@@ -103,6 +105,23 @@ The bot includes a comprehensive referral system that allows users to invite oth
 - Track number of invited users
 - View detailed referral statistics
 - Monitor active invitations
+
+### Referral Code Management
+
+Administrators can create custom referral codes using:
+- `/create_ref` - Generates a random 6-character code
+- `/create_ref customcode` - Creates a referral code with specified name
+
+Examples:
+```bash
+/create_ref           # Creates random code like "ab12cd"
+/create_ref SUMMER23  # Creates code "SUMMER23"
+```
+
+Each referral code can be tracked using `/ref [code]` command which shows:
+- Total number of invited users
+- Currently active users
+- Detailed list of invited users with their status
 
 ### How Referral System Works
 
