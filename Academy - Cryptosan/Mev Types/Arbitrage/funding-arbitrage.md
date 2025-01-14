@@ -40,5 +40,5 @@ In funding arbitrage, you profit from the difference in funding rates. One posit
 ---
 
 ### **How to Earn Consistently?**
-💵 [How to Earn $10 to $100 every 4 hours with proper setups.](t.me/send?start=SBPVQk0nep5lgxZDIy)
-💵 [Catch opportunities to make 10% returns within 5–10 minutes with almost no risk.](t.me/send?start=SBPVQk0nep5lgxZDIy)
+💵 [How to Earn $10 to $100 every 4 hours with proper setups.](https://t.me/send?start=SBPVQk0nep5lgxZDIy)
+💵 [Catch opportunities to make 10% returns within 5–10 minutes with almost no risk.](https://t.me/send?start=SBPVQk0nep5lgxZDIy)
