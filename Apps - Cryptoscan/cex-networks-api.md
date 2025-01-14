@@ -1,6 +1,6 @@
 # CEX Networks API - Cryptoscan
 
-API to get realtime networks statuses, listen networks updates
+API to get realtime networks statuses, listen networks updates.
 
 **Contacts**: https://t.me/dan_cryptoscan
 

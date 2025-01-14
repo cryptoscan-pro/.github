@@ -2,7 +2,7 @@
 
 A microservice that provides real-time order book depth and exchange rate information from multiple cryptocurrency exchanges.
 
-**Current Price**: $1800
+Contacts: [https://t.me/dan_cryptoscan](https://t.me/dan_cryptoscan)
 
 What you get:
 
